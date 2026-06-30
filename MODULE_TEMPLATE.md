@@ -9,15 +9,15 @@ Este documento define la estructura y el formato obligatorio que debe seguir cua
 Cuando se crea un nuevo módulo, su estructura de carpetas debe ser la siguiente:
 
 ```
-XX-NombreModulo/                        # XX es el número de módulo correlativo (ej. 03, 04)
+xx-nombre-modulo/                       # xx es el número de módulo correlativo (ej. 03, 04)
 ├── README.md                           # Índice y conceptos del módulo
-├── Introduccion/                       # Carpeta de nivelación
-│   └── Nombre_Descriptivo.ipynb        # Cuaderno de nivelación
-├── Leccion1/                           # Carpeta de la lección 1
-│   └── Nombre_Descriptivo.ipynb        # Cuaderno de la lección 1
+├── introduccion/                       # Carpeta de nivelación
+│   └── nombre-descriptivo.ipynb        # Cuaderno de nivelación
+├── leccion-1/                          # Carpeta de la lección 1
+│   └── nombre-descriptivo.ipynb        # Cuaderno de la lección 1
 │   ...
-└── Leccion11/                          # Carpeta de la lección 11 (Unificación)
-    └── Nombre_Descriptivo.ipynb        # Cuaderno de conclusión y unificación
+└── leccion-11/                         # Carpeta de la lección 11 (Unificación)
+    └── nombre-descriptivo.ipynb        # Cuaderno de conclusión y unificación
 ```
 
 ---
@@ -36,23 +36,23 @@ Este archivo debe actuar como el programa de estudios y mapa conceptual del mód
 
 ## Índice del Módulo
 
-### [Introducción: [Nombre de la Introducción]](file:///c:/Users/BlandskronNotebook/Documents/blandskron/Foundations-of-Physics/XX-NombreModulo/Introduccion)
+### [Introducción: [Nombre de la Introducción]](./introduccion/nombre-descriptivo.ipynb)
 - **Conceptos**: [Lista de conceptos teóricos y matemáticos nivelados]
 - **Código**: [Lista de bibliotecas y scripts desarrollados en el cuaderno]
 
-### [Lección 1: [Nombre de la Lección]](file:///c:/Users/BlandskronNotebook/Documents/blandskron/Foundations-of-Physics/XX-NombreModulo/Leccion1)
+### [Lección 1: [Nombre de la Lección]](./leccion-1/nombre-descriptivo.ipynb)
 - **Conceptos**: [Conceptos teóricos y matemáticos detallados]
 - **Código**: [Detalles de implementaciones y simulaciones en Python]
 
 ... [Repetir para Lección 2 a Lección 10] ...
 
-### [Lección 11: Conclusión y Unificación](file:///c:/Users/BlandskronNotebook/Documents/blandskron/Foundations-of-Physics/XX-NombreModulo/Leccion11)
+### [Lección 11: Conclusión y Unificación](./leccion-11/nombre-descriptivo.ipynb)
 - **Conceptos**: [Conceptos de síntesis y unificación del módulo]
 - **Código**: [Explicación del proyecto integrador final y cómo conecta las lecciones]
 ```
 
 ### B. Cuadernos de Jupyter (`.ipynb`)
-Cada una de las 12 carpetas debe contener **exactamente un** archivo `.ipynb` con un nombre representativo en Snake_case (ej. `Metodos_prueba_induccion_recursion.ipynb`).
+Cada una de las 12 carpetas debe contener **exactamente un** archivo `.ipynb` con un nombre representativo en kebab-case en minúsculas (ej. `metodos-de-prueba-induccion-y-recursion.ipynb`).
 
 ---
 

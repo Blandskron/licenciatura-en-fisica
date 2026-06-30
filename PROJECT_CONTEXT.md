@@ -16,12 +16,12 @@ A diferencia de los libros de texto impresos tradicionales, este repositorio bus
 
 El repositorio cuenta actualmente con la base matemática y de análisis numérico completada en su totalidad, organizada en dos módulos iniciales:
 
-### Módulo 1: Álgebra Lineal Computacional (`01-AlgebraLineal`)
+### Módulo 1: Álgebra Lineal Computacional (`01-algebra-lineal`)
 * **Estado:** Completado (100%).
 * **Contenido:** 12 cuadernos (Introducción + 11 Lecciones).
 * **Alcance:** Lógica proposicional, cuantificadores, teoría de conjuntos, aritmética modular, operaciones de matrices, relaciones binarias (clausura de Warshall), eliminación gaussiana (pivoteo escalado parcial), programación lineal (optimización primal-dual con SciPy), algoritmo Simplex paso a paso, teoría de grafos, árboles binarios de búsqueda y un proyecto unificado de telecomunicaciones.
 
-### Módulo 2: Cálculo I (`02-Calculo1`)
+### Módulo 2: Cálculo I (`02-calculo-1`)
 * **Estado:** Completado (100%).
 * **Contenido:** 12 cuadernos (Introducción + 11 Lecciones).
 * **Alcance:** Análisis real, límites $\epsilon-\delta$, derivación, teoremas del valor medio, polinomios de Taylor, integral definida (sumas de Riemann, Barrow) e indefinida (métodos de sustitución e integrales no elementales), sucesiones y series infinitas, principios combinatorios (inclusión-exclusión, explosión combinatoria), análisis de errores en punto flotante, sistemas de numeración (conversión de bases, Von Neumann) y algoritmos de raíces no lineales (Newton-Raphson, Schröder, Steffensen y aceleración de Aitken).

@@ -46,32 +46,32 @@ Foundations-of-Physics/
 ├── DEVELOPMENT_RULES.md                # Reglas estrictas de desarrollo y nombrado
 ├── PROJECT_CONTEXT.md                  # Contexto, objetivos y estado actual
 │
-├── 01-AlgebraLineal/                   # Módulo 1: Álgebra Lineal Computacional
+├── 01-algebra-lineal/                  # Módulo 1: Álgebra Lineal Computacional
 │   ├── README.md                       # Índice y conceptos del Módulo 1
-│   ├── Introduccion/
-│   │   └── Bases_y_fundamentos.ipynb
-│   ├── Leccion1/
-│   │   └── Metodos_prueba_induccion_recursion.ipynb
+│   ├── introduccion/
+│   │   └── bases-y-fundamentos.ipynb
+│   ├── leccion-1/
+│   │   └── metodos-de-prueba-induccion-y-recursion.ipynb
 │   │   ...
-│   └── Leccion11/
-│       └── Conclusion_unificacion.ipynb
+│   └── leccion-11/
+│       └── conclusion-y-unificacion.ipynb
 │
-└── 02-Calculo1/                        # Módulo 2: Cálculo I
+└── 02-calculo-1/                       # Módulo 2: Cálculo I
     ├── README.md                       # Índice y conceptos del Módulo 2
-    ├── Introduccion/
-    │   └── Conceptos_Esenciales.ipynb
-    ├── Leccion1/
-    │   └── Introduccion_al_analisis.ipynb
+    ├── introduccion/
+    │   └── conceptos-esenciales.ipynb
+    ├── leccion-1/
+    │   └── introduccion-al-analisis-real-funciones-y-limites.ipynb
     │   ...
-    └── Leccion11/
-        └── Consolidado_Calculo1.ipynb
+    └── leccion-11/
+        └── consolidado-y-conclusion-del-modulo-2.ipynb
 ```
 
 ---
 
 ## 4. Reglas Obligatorias del Proyecto
 
-1. **Mantener la Estructura de Lecciones:** Cada módulo debe contener exactamente una lección de nivelación/introducción (`Introduccion`) y 11 lecciones temáticas (`Leccion1` a `Leccion11`), totalizando 12 cuadernos.
+1. **Mantener la Estructura de Lecciones:** Cada módulo debe contener exactamente una lección de nivelación/introducción (`introduccion`) y 11 lecciones temáticas (`leccion-1` a `leccion-11`), totalizando 12 cuadernos.
 2. **Independencia de Cuadernos:** Cada cuaderno de Jupyter debe ser autocontenido. Debe importar sus propias bibliotecas necesarias en las primeras celdas de código de cada lección y no depender del estado de ejecución de otros cuadernos.
 3. **Estilo Científico y Formal:** Las explicaciones matemáticas deben ser detalladas y usar LaTeX/MathJax para todas las ecuaciones, símbolos y fórmulas.
 4. **Comentarios de Código:** El código en Python dentro de las celdas debe estar comentado en español, explicando la intención física o matemática de la operación.
@@ -105,7 +105,7 @@ Cuando el usuario solicite la creación de un nuevo módulo, el agente de IA deb
 1. **Recepción del PDF:** Esperar a que el usuario entregue el PDF de requerimientos del módulo.
 2. **Lectura y Comparación:** Leer el PDF y contrastar sus contenidos con `AGENTS.md`, `ARCHITECTURE.md`, `MODULE_TEMPLATE.md` y `DEVELOPMENT_RULES.md`.
 3. **Planificación:** Diseñar el plan en `implementation_plan.md` y esperar la aprobación del usuario.
-4. **Estructura del Módulo:** Crear la carpeta del módulo `XX-NombreModulo` siguiendo el patrón exacto establecido en `MODULE_TEMPLATE.md`.
+4. **Estructura del Módulo:** Crear la carpeta del módulo `xx-nombre-modulo` siguiendo el patrón exacto establecido en `MODULE_TEMPLATE.md`.
 5. **Implementación de Cuadernos:** Desarrollar los 12 cuadernos (Introducción + 11 lecciones) secuencialmente, asegurando que se cumplan las convenciones de código y estilo matemático.
 6. **Actualización de Índices:** Actualizar el archivo `README.md` del nuevo módulo y el `README.md` en la raíz del repositorio.
 7. **Verificación:** Ejecutar secuencialmente todas las celdas de los cuadernos creados para comprobar que no existan errores en tiempo de ejecución.

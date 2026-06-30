@@ -7,15 +7,15 @@ Este documento establece las reglas y estándares obligatorios para la nomenclat
 ## 1. Reglas de Nomenclatura (Naming Rules)
 
 ### A. Directorios y Carpetas
-* **Carpetas de Módulos:** Deben nombrarse en formato `XX-NombreModulo` donde:
-  - `XX` es el número correlativo de dos dígitos relleno con ceros a la izquierda (ej. `03`, `04`, `10`).
-  - `NombreModulo` utiliza PascalCase (CamelCase con la primera letra en mayúscula), sin espacios ni caracteres especiales o tildes (ej. `03-FisicaMecanica`, `04-Termodinamica`).
-* **Carpetas de Lecciones:** Deben nombrarse secuencialmente en español:
-  - `Introduccion` (sin tilde).
-  - `Leccion1`, `Leccion2` ... `Leccion11` (sin tilde ni espacios).
+* **Carpetas de Módulos:** Deben nombrarse en formato `xx-nombre-modulo` en minúsculas y con guiones donde:
+  - `xx` es el número correlativo de dos dígitos relleno con ceros a la izquierda (ej. `03`, `04`, `10`).
+  - `nombre-modulo` utiliza minúsculas y guiones (kebab-case), sin espacios ni caracteres especiales o tildes (ej. `03-fisica-mecanica`, `04-termodinamica`).
+* **Carpetas de Lecciones:** Deben nombrarse secuencialmente en español usando minúsculas y guiones:
+  - `introduccion` (sin tilde).
+  - `leccion-1`, `leccion-2` ... `leccion-11` (con guión).
 
 ### B. Archivos de Cuaderno (`.ipynb`)
-* Los cuadernos deben nombrarse utilizando **snake_case** en minúsculas, describiendo de forma corta el contenido principal de la lección (ej. `derivacion_y_aplicaciones.ipynb`, `calculo_raices_aceleracion.ipynb`).
+* Los cuadernos deben nombrarse utilizando **kebab-case** en minúsculas, describiendo de forma descriptiva el contenido principal de la lección basándose en su título oficial (ej. `derivacion-de-funciones-y-sus-aplicaciones.ipynb`, `calculo-de-raices-algoritmos-de-resolucion-y-aceleracion.ipynb`).
 * Se debe evitar la inclusión de caracteres con tilde, la letra `ñ` o caracteres especiales en los nombres de archivos para evitar incompatibilidades de codificación entre distintos sistemas operativos (Linux, macOS, Windows).
 
 ### C. Variables, Funciones y Clases en Python
