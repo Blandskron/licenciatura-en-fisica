@@ -19,3 +19,10 @@ Este módulo abarca los fundamentos del Álgebra Lineal y la Matemática Discret
 Este módulo abarca el estudio formal del Cálculo Diferencial e Integral aplicado a la física matemática. Se compone de lecciones teóricas detalladas de análisis real, límites y continuidad con simulaciones interactivas en Python (Jupyter Colab).
 
 * Ver el índice completo del módulo y los cuadernos en: **[README Módulo 2: Cálculo I](file:///c:/Users/BlandskronNotebook/Documents/blandskron/Foundations-of-Physics/02-Calculo1/README.md)**
+
+### Módulo 3: Fundamentos de Óptica
+
+Este módulo abarca el estudio formal de las oscilaciones, ondas y fenómenos ópticos. Se compone de lecciones teóricas detalladas de oscilaciones libres, amortiguadas, forzadas y resonancia, seguidas por el estudio de la óptica geométrica, ondulatoria y electromagnética con simulaciones interactivas en Python (Jupyter Colab).
+
+* Ver el índice completo del módulo y los cuadernos en: **[README Módulo 3: Fundamentos de Óptica](file:///c:/Users/BlandskronNotebook/Documents/blandskron/Foundations-of-Physics/03-FundamentosDeOptica/README.md)**
+
