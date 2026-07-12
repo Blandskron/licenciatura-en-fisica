@@ -26,3 +26,8 @@ Este módulo abarca el estudio formal de las oscilaciones, ondas y fenómenos ó
 
 * Ver el índice completo del módulo y los cuadernos en: **[README Módulo 3: Fundamentos de Óptica](./03-fundamentos-de-optica/README.md)**
 
+### Módulo 4: Fundamentos de Electromagnetismo
+
+Este módulo abarca el estudio formal del electromagnetismo, desde la electrostática y magnetostática en el vacío y medios materiales, hasta la inducción electromagnética y la teoría unificada en las ecuaciones de Maxwell. Se compone de una lección de nivelación, 10 lecciones temáticas teórica-computacionales y un proyecto final integrador con simulaciones interactivas en Python (Jupyter Colab).
+
+* Ver el índice completo del módulo y los cuadernos en: **[README Módulo 4: Fundamentos de Electromagnetismo](./04-fundamentos-de-electromagnetismo/README.md)**
