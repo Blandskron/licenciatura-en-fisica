@@ -31,3 +31,9 @@ Este módulo abarca el estudio formal de las oscilaciones, ondas y fenómenos ó
 Este módulo abarca el estudio formal del electromagnetismo, desde la electrostática y magnetostática en el vacío y medios materiales, hasta la inducción electromagnética y la teoría unificada en las ecuaciones de Maxwell. Se compone de una lección de nivelación, 10 lecciones temáticas teórica-computacionales y un proyecto final integrador con simulaciones interactivas en Python (Jupyter Colab).
 
 * Ver el índice completo del módulo y los cuadernos en: **[README Módulo 4: Fundamentos de Electromagnetismo](./04-fundamentos-de-electromagnetismo/README.md)**
+
+### Módulo 5: Cálculo II
+
+Este módulo abarca el estudio formal del Cálculo Integral Avanzado, Sucesiones y Series de Funciones, Ecuaciones Diferenciales Ordinarias, y el Cálculo Multivariable (diferencial e integral), esenciales para la formulación matemática de la física teórica y experimental. Se compone de lecciones teóricas detalladas de análisis real avanzado con simulaciones interactivas en Python (Jupyter Colab).
+
+* Ver el índice completo del módulo y los cuadernos en: **[README Módulo 5: Cálculo II](./05-calculo-2/README.md)**
